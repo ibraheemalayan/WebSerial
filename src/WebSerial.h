@@ -9,7 +9,7 @@
     #define HARDWARE "ESP8266"
     #include "ESP8266WiFi.h"
     #include "ESPAsyncTCP.h"
-    #include "ESPAsyncWebServer.h"
+    #include "ESPAsyncWebSrv.h"
 #elif defined(ESP32)
     #define HARDWARE "ESP32"
     #include "WiFi.h"
